@@ -1,0 +1,21 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-menu-button></ion-menu-button>
+    </ion-buttons>
+    <ion-title>Projetos</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true" class="ion-padding">
+
+  <ion-list>
+    <ion-item button *ngFor="let projeto of projetos" (click)="abrirDetalhes(projeto)">
+      <ion-label>
+        <h2>{{ projeto.titulo }}</h2>
+        <p>{{ projeto.descricao }}</p>
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+</ion-content>

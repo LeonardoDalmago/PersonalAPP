@@ -1,0 +1,18 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button (click)="fecharModal()">Voltar</ion-button>
+    </ion-buttons>
+    <ion-title>{{ projeto?.titulo }}</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="ion-padding">
+
+  <h2>{{ projeto?.titulo }}</h2>
+  <p>{{ projeto?.descricao }}</p>
+  <p>
+    <a [href]="projeto?.link" target="_blank">Acessar Projeto</a>
+  </p>
+
+</ion-content>
