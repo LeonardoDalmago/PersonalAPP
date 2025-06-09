@@ -16,7 +16,7 @@ CSS3
 TypeScript
 
  Como executar
-Clone o repositório: git clone https://github.com/seu-usuario/personal-app.git cd personal-app
+Clone o repositório: git clone https://github.com/LeonardoDalmago/PersonalAPP
 
 Instale as dependências: -npm install
 
